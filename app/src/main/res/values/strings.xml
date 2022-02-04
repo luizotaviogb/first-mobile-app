@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">my-first-mobile</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="minus">-</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="plus">+</string>
+    <string name="_0">0</string>
+    <string name="comma">,</string>
+    <string name="backspace">⌫</string>
+    <string name="equals">=</string>
+    <string name="clean">C</string>
+    <string name="openParentheses">(</string>
+    <string name="closeParentheses">)</string>
+    <string name="potentiation">x^y</string>
+    <string name="division">/</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="multiplication">×</string>
+
+    <style name="operators_button">
+        <item name="android:layout_width"> 0dp </item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background"> @color/secondaryDark</item>
+        <item name="android:textColor">@color/fontDark</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">0.5dp</item>
+    </style>
+
+    <style name="numbers_button">
+        <item name="android:layout_width"> 0dp </item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background"> @color/tertiaryDark</item>
+        <item name="android:textColor">@color/fontDark</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">0.5dp</item>
+    </style>
+</resources>
